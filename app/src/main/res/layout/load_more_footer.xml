@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/color_EFF3F7" />
+
+    <LinearLayout
+        android:id="@+id/load_more_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="10dip"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/base_loading_large_anim" />
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="加载中..."
+            android:textColor="#777"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/load_more_load_fail_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_marginTop="40dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_40"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/load_failed" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/load_more_load_end_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_marginTop="80dp"
+        tools:visibility="visible"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_40"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/load_end"
+            android:textSize="@dimen/text_size_14"
+            android:textColor="@color/color_333333" />
+    </FrameLayout>
+    <!--这个是用来占位的，不影响现有效果，，，目前只是用在商机列表数据在3条以内的情况，其他没有使用的地方，由于-->
+    <View
+        android:id="@+id/v_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        />
+</FrameLayout>

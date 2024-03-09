@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:background="@color/color_white">
+
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="心理咨询"
+                android:textColor="@color/color_333333"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/top_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_200"
+            android:src="@mipmap/xinli" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="咨询师：马保国"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/text_size_18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_8"
+            android:text="国家二级心理咨询师"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@color/app_activity_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_16"
+            android:text="咨询列表"
+            android:textColor="@color/color_333333"
+            android:textSize="16sp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/comment_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/input_content_et"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_0076ff"
+        android:hint="请输入咨询内容"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_18" />
+
+    <TextView
+        android:id="@+id/zixun_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_0076ff"
+        android:gravity="center"
+        android:text="预约咨询"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_18" />
+</RelativeLayout>

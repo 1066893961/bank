@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_12"
+    android:background="@drawable/homepage_list_item_bg"
+    android:padding="@dimen/dp_12">
+
+    <ImageView
+        android:id="@+id/title_iv"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/dp_40"
+        android:src="@mipmap/bank_header" />
+
+    <TextView
+        android:id="@+id/account_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_toRightOf="@+id/title_iv"
+        android:text="1231312313112"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/sp_16" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_tv"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_toRightOf="@+id/title_iv"
+        android:text="中国银行"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/sp_16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_below="@+id/title_iv"
+        android:layout_marginTop="16dp"
+        android:text="账面余额"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/sp_16" />
+    <TextView
+        android:id="@+id/amount_tv"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_below="@+id/title_iv"
+        android:layout_marginTop="16dp"
+        android:text="人民币元：2000999"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/sp_16" />
+
+</RelativeLayout>

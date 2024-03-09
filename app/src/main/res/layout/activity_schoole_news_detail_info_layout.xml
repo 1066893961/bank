@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/top_iv"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_school" />
+
+
+            <TextView
+                android:id="@+id/content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_16"
+                android:lineSpacingExtra="2dp"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="@dimen/dp_12"
+                android:text="    我们的生活是在不断的相遇和思念中，但是总有一些等待不能太久，因为没有意识到已经在我的心底凋谢了。寂寞太久了，是不习惯爱和被爱的。下面带来2020夫妻平淡而幸福的句子 夫妻异地生活感悟句子！ 2020夫妻平淡而幸福的句子 夫妻异地生活感悟句子1-10 1、什么是爱？这其实很简单。凡是提高、充实、丰富我们生活的东西就是爱。通向一切高度和深度的东西就是爱。 2、两只手紧紧地握在一起，一颗心紧紧地贴在一起。因为两个人已经他们爱的很深，已经成为了一个整体。 3、我最幸福的时刻但是总有一些等待不能太久但是总有一些等待不能太久但是总有一些等待不能太久但是总有一些等待不能太久但是总有一些等待不能太久但是总有一些等待不能太久但是总有一些等待不能太久但是总有一些等待不能太久但是总有一些等待不能太久"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/text_size_18" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

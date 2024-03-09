@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ffffffff</color>
+    <color name="colorAccent">@color/color_4B88F9</color>
+
+
+    <!--状态栏颜色-->
+    <color name="status_bar_gray_color">#ffb3b3b3</color>
+    <color name="status_bar_red_color">#ffDA1900</color><!--真用到了，应该屏蔽掉-->
+    <color name="app_activity_bg">#fff6f8fa</color><!--项目整体的背景色-->
+    <!--列表分割线色值-->
+    <color name="new_driver_line">#ffe3e5ea</color><!--列表分割线色值-->
+    <!--状态栏颜色-->
+    <!--底部4个tab按钮颜色-->
+    <color name="homepage_tab_selected_color">#436edc</color>
+    <color name="homepage_tab_unselected_color">@color/color_354056</color>
+    <!--底部4个tab按钮颜色-->
+    <!--绿色文字-->
+    <!--蓝色文字-->
+    <!--红色文字-->
+    <!--红色文字-->
+    <color name="color_white">#ffffff</color>     <!--白色文字-->
+    <color name="send_text_color">#ccfa3c55</color>
+    <color name="wind_back_bg">#d8d8d8</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_c0c2c2">#c0c2c2</color>
+    <color name="F0F0F0">#F0F0F0</color>
+    <color name="color_fefefe">#fefefe</color>
+    <color name="color_1CA998">#1CA998</color>
+
+    <color name="transparent">#00000000</color>
+    <!--规则停用背景色-->
+    <!--部分文字颜色-->
+    <color name="color_000000">#000000</color>
+    <color name="color_dddddd">#dddddd</color><!--分隔线颜色-->
+    <!--分隔线颜色-->
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_39425f">#39425f</color>
+    <!--我的页面圆圈蓝色文字-->
+    <!--按钮渐变开始颜色,enable-->
+    <!--按钮渐变结束颜色,unable-->
+    <!--按钮渐变开始颜色,unable-->
+    <!--按钮渐变结束颜色,unable-->
+
+    <color name="color_979db4">#979db4</color>
+    <color name="color_7c7c7c">#7c7c7c</color>
+    <color name="color_333333">#333333</color>
+    <!--背景蓝色-->
+    <color name="color_4B89FA">#4B89FA</color><!--背景蓝色-->
+    <!--统一背景色-->
+    <color name="color_4B88F9">#4B88F9</color>
+    <color name="color_0076ff">#0076ff</color>
+
+    <color name="color_030303">#030303</color>
+    <color name="color_cfd1d6">#cfd1d6</color>
+    <!-- 看板-->
+    <color name="color_35AEB6">#35AEB6</color>
+    <color name="color_EFF3F7">#EFF3F7</color>
+    <color name="color_354056">#354056</color>
+    <color name="color_1afa29">#1afa29</color>
+    <!--验证码页，已绑定手机号-->
+
+    <color name="color_D81D16">#D81D16</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+    <color name="color_CF2B10">#CF2B10</color>
+    <color name="color_DE1700">#DE1700</color>
+    <color name="color_FFE9BC0E">#FFE9BC0E</color>
+    <color name="color_2a2a2a">#2a2a2a</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_ff2b3f">#ff2b3f</color>
+    <color name="color_8299D5">#8299D5</color>
+    <color name="color_e1e1e1">#e1e1e1</color>
+    <color name="color_dedede">#dedede</color>
+    <color name="color_c1c1c1">#c1c1c1</color>
+
+    <color name="color_BBBBBB">#BBBBBB</color>
+    <color name="color_DA1900">#DA1900</color>
+    <color name="color_f27979">#f27979</color>
+    <color name="color_f2f9fb">#f2f9fb</color>
+    <color name="color_e8f0fa">#e8f0fa</color>
+    <color name="color_0d8274">#0d8274</color>
+    <color name="color_3695FF">#3695FF</color>
+    <color name="color_4768FE">#4768FE</color>
+    <color name="color_FAFAFA">#FAFAFA</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+    <color name="color_F46E65">#F46E65</color>
+    <color name="color_65A429">#65A429</color>
+    <color name="color_E0F1D0">#E0F1D0</color>
+    <color name="color_FCCDCA">#FCCDCA</color>
+    <color name="color_69C0BA">#69C0BA</color>
+    <color name="color_D5D5D5">#D5D5D5</color>
+    <color name="color_5DBEC5">#5DBEC5</color>
+    <color name="color_737373">#737373</color>
+    <color name="color_de5455">#de5455</color>
+    <color name="color_f45f5b">#f45f5b</color>
+    <color name="color_F10802">#F10802</color>
+    <color name="color_8299d5">#8299d5</color>
+    <color name="color_FF3021">#FF3021</color>
+    <color name="color_FF3b30">#FF3b30</color>
+    <color name="color_c4c4c4">#c4c4c4</color>
+    <color name="color_4c4c4c">#4c4c4c</color>
+    <color name="color_b4b4b4">#b4b4b4</color>
+    <color name="color_D7A672">#D7A672</color>
+    <color name="color_55B0BD">#55B0BD</color>
+    <color name="color_D1D1D1">#D1D1D1</color>
+    <color name="color_808080">#808080</color>
+    <color name="color_FA8E0A">#FA8E0A</color>
+    <color name="color_008AFB">#008AFB</color>
+    <color name="color_72D400">#72D400</color>
+    <color name="color_51C99D">#51C99D</color>
+    <color name="color_2caeb7">#2caeb7</color>
+    <color name="color_B5B5B5">#B5B5B5</color>
+    <color name="color_E6E6E6">#E6E6E6</color>
+    <color name="color_070707">#070707</color>
+</resources>
